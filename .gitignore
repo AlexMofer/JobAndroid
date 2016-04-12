@@ -1,9 +1,3 @@
-# License files
-LICENSE
-
-# Json files
-*.json
-
 # Windows OS
 /*/Thumbs.db
 
