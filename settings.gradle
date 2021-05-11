@@ -1,0 +1,3 @@
+rootProject.name = "JobAndroid"
+include ':app'
+include ':job-android'
