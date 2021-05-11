@@ -13,7 +13,7 @@ Android线程异步辅助库
 ```
 dependencies {
     ...
-    classpath 'io.github.alexmofer.job:job-android:1.0.0'
+    implementation 'io.github.alexmofer.job:job-android:1.0.0'
     ...
 }
 ```
