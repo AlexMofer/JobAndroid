@@ -57,4 +57,34 @@ public abstract class Job<C> extends BaseJob<C> {
             SparseProgress.put((SparseProgress) progress);
         }
     }
+
+    @Override
+    public Job<C> setCallback(C callback, boolean weak) {
+        return (Job<C>) super.setCallback(callback, weak);
+    }
+
+    @Override
+    public Job<C> setId(int id) {
+        return (Job<C>) super.setId(id);
+    }
+
+    @Override
+    public Job<C> setTag(Object tag) {
+        return (Job<C>) super.setTag(tag);
+    }
+
+    @Override
+    public Job<C> setPriority(int priority) {
+        return (Job<C>) super.setPriority(priority);
+    }
+
+    @Override
+    public Job<C> putWeakParam(int key, Object value) {
+        return (Job<C>) super.putWeakParam(key, value);
+    }
+
+    @Override
+    public Job<C> setTraverse(Traverse traverse) {
+        return (Job<C>) super.setTraverse(traverse);
+    }
 }
