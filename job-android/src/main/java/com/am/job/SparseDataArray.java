@@ -18,8 +18,6 @@ package com.am.job;
 import android.os.Build;
 import android.util.SparseArray;
 
-import com.am.job.core.DataArray;
-
 /**
  * 使用SparseArray实现的数据数组
  * Created by Alex on 2021/3/12.

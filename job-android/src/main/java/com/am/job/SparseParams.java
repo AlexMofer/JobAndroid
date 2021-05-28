@@ -18,8 +18,6 @@ package com.am.job;
 import android.os.Build;
 import android.util.SparseArray;
 
-import com.am.job.core.BaseJob;
-
 import java.lang.ref.WeakReference;
 
 /**

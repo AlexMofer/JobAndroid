@@ -15,8 +15,6 @@
  */
 package com.am.job;
 
-import com.am.job.core.BaseJob;
-
 import java.util.ArrayList;
 
 /**

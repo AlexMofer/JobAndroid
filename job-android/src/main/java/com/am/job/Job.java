@@ -15,8 +15,6 @@
  */
 package com.am.job;
 
-import com.am.job.core.BaseJob;
-
 /**
  * 任务
  * Created by Alex on 2021/3/12.

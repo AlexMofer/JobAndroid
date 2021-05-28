@@ -19,8 +19,6 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 
-import com.am.job.core.BaseJob;
-
 import java.util.ArrayList;
 
 /**
