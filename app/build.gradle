@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace 'com.am.job.ui'
     compileSdk 32
 
     defaultConfig {

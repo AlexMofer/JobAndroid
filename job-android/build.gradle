@@ -3,21 +3,35 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    namespace 'com.am.job'
+    compileSdk 33
 
     defaultConfig {
         minSdk 14
-        targetSdk 32
+        targetSdk 33
     }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+
+        multipleVariants {
+            withSourcesJar()
+            withJavadocJar()
+            allVariants()
+        }
+    }
 }
 
 dependencies {
-    api 'io.github.alexmofer.job:job-core:2.0.1'
+    api 'io.github.alexmofer.job:job-core:2.0.3'
 }
 
 //apply from: "maven-central-aar.gradle"
